@@ -5,6 +5,7 @@
 Запускается проект просто:
 
 ```
+npm install
 TELEGRAM_TOKEN=bot_token ADMIN_USER_CHAT_ID=chat_id node index.js
 ```
 , где `TELEGRAM_TOKEN` и `ADMIN_USER_CHAT_ID` - это env-переменные, `bot_token` - это API-токен бота, а `chat_id` - это id чата, куда будут слаться итоговые отчеты от бота (узнать персональный id чата можно, добавив бота себе и отослав ему команду `/id`).
